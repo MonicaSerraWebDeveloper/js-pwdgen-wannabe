@@ -21,7 +21,10 @@ const randomNumber = prompt('4. Scrivi un numero');
 // Convertire il randomNumber da stringa a numero
 
 const randomNumberToFigure = parseInt(randomNumber);
-console.log(randomNumberToFigure);
+
+// Variabile per la somma di 23 con  il numero dato dall'utente
+const sumNumbers = 23 + randomNumberToFigure;
+console.log(sumNumbers);
 
 // Concatenare tutte le stringhe che ci fornisce l'utente
 
