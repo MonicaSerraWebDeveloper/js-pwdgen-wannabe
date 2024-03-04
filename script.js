@@ -24,11 +24,10 @@ const randomNumberToFigure = parseInt(randomNumber);
 
 // Variabile per la somma di 23 con  il numero dato dall'utente
 const sumNumbers = 23 + randomNumberToFigure;
-console.log(sumNumbers);
 
 // Concatenare tutte le stringhe che ci fornisce l'utente
 
-const yourPassword = yourName + yourSurname + yourFavColor + '23';
+const yourPassword = yourName + yourSurname + yourFavColor + sumNumbers;
 
 // Creaiamo la variabile const del messaggio da mostrare
 
