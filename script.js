@@ -20,7 +20,7 @@ const yourPassword = yourName + yourSurname + yourFavColor + '23';
 
 // Creaiamo la variabile const del messaggio da mostrare
 
-const resultPassword = 'Questa è la tua password: ' + yourPassword;
+const resultPassword = `Questa è la tua password: ${yourPassword}`;
 
 // Stampare sulla pagina HTML la password
 document.getElementById('password').innerHTML = resultPassword
