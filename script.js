@@ -1,6 +1,6 @@
 // Alert per avvisare l'utente che stiamo per creare la sua password NON sicura
 
-alert('Creiamo la tua password in 3 step');
+alert('Creiamo la tua password in 4 step');
 
 // Chiedere all'utente il suo nome 
 
@@ -13,6 +13,13 @@ const yourSurname = prompt ('2. Scrivi il tuo cognome');
 // Chiedere all'utente il suo colore preferito
 
 const yourFavColor = prompt ('3. Scrivi il tuo colore preferito');
+
+// Chiedere all'utente un numero
+
+const randomNumber = prompt('4. Scrivi un numero');
+
+// Convertire il randomNumber da stringa a numero
+
 
 // Concatenare tutte le stringhe che ci fornisce l'utente
 
