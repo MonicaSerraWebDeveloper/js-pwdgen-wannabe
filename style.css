@@ -7,3 +7,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*----------------------
+        LAYOUT
+------------------------*/
+
+.box-message {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+}
+
