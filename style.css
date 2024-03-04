@@ -9,6 +9,17 @@
 }
 
 /*----------------------
+        GENERAL
+------------------------*/
+
+body {
+    font-family: monospace;
+    background-color: black;
+    color: #fff;
+}
+
+
+/*----------------------
         LAYOUT
 ------------------------*/
 
@@ -17,6 +28,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
 }
 
+/*----------------------
+        TYPOGRAPHY
+------------------------*/
+
+h2 {
+    font-size: 30px;
+}
