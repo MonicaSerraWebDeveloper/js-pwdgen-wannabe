@@ -17,5 +17,9 @@ console.log(yourSurname);
 const yourFavColor = prompt ('3. Scrivi il tuo colore preferito');
 console.log(yourFavColor);
 
+// Concatenare tutte le stringhe che ci fornisce l'utente
+
+const yourPassword = yourName + yourSurname + yourFavColor + 23;
+console.log(yourPassword);
 
 // Stampare sulla pagina HTML la password
