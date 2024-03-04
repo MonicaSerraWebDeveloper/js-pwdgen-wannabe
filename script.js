@@ -20,6 +20,8 @@ const randomNumber = prompt('4. Scrivi un numero');
 
 // Convertire il randomNumber da stringa a numero
 
+const randomNumberToFigure = parseInt(randomNumber);
+console.log(randomNumberToFigure);
 
 // Concatenare tutte le stringhe che ci fornisce l'utente
 
