@@ -14,4 +14,8 @@ console.log(yourSurname);
 
 // Chiedere all'utente il suo colore preferito
 
+const yourFavColor = prompt ('3. Scrivi il tuo colore preferito');
+console.log(yourFavColor);
+
+
 // Stampare sulla pagina HTML la password
